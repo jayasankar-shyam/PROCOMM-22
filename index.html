@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PROCOMM - Online Technical Project Contest</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao - v2.2.0
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<style>
+  .timeline {
+    border-left: 3px solid #727cf5;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(114, 124, 245, 0.09);
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 5px #727cf5;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><img src="assets/img/PROCOM Logo White.png"></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="instructions.html">Instructions</a></li>
+          <li><a href="https://ieeekerala.org">IEEE Kerala Section</a></li>
+          <li><a href="https://comsoc.ieeekerala.org">IEEE ComSoc Kerala Chapter</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">PROCOMM 2020</h2>
+          <p class="animate__animated fanimate__adeInUp">PROCOMM is an online technical project contest for the students to showcase their innovative, path-breaking ideas and take them to next level.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About PROCOMM</h2>
+          <p>What is PROCOMM?</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              PROCOMM is an online technical project contest for the students to showcase their innovative, path-breaking ideas and take them to next level.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i><strong>Who can participate?</strong><br>UG students of engineering stream can participate in PROCOMM.</li>
+              <li><i class="ri-check-double-line"></i><strong>Is it a team event?</strong><br>Yes. Every team should be of 2-4 members.</li>
+              <li><i class="ri-check-double-line"></i><strong>How many rounds are there?</strong><br>2 rounds<br> 1st round: Idea Pitching<br> 2nd round: Presentation.</li>
+              <li><i class="ri-check-double-line"></i><strong>Is IEEE membership mandatory to participate in PROCOMM?</strong><br>The team lead should be IEEE Member.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+           
+            <a href="instructions.html" class="btn-learn-more my-2">Apply Now</a>
+          </div>
+        </div>
+        <div class="container border-2">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <div id="content">
+                              <ul class="timeline">
+                                  <li class="event" data-date="December 14 2020">
+                                      <h3>Call for Submission</h3>
+                                  </li>
+                                  <li class="event" data-date="February 15 2021">
+                                      <h3>Submission Deadline</h3>
+                                  </li>
+                                  <li class="event" data-date="March 2021">
+                                      <h3>Shortlisted announcement</h3>
+                                  </li>
+                                  <li class="event" data-date="April 2021">
+                                      <h3>Final Round</h3>
+                                  </li>
+                                  <li class="event" data-date="April 24 2021">
+                                    <h3>Final Result</h3>
+                                </li>
+                              </ul>
+                              <a href="panel.html" class="btn btn-success text-center m-5" >Jugding Panel</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">IEEE</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-toggle="tab" href="#tab-2">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">ComSoc</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Institute of Electrical And Electronics Engineers(IEEE)</h3>
+                <p class="font-italic">
+                  Institute of Electrical And Electronics Engineers(IEEE), association dedicated to advancing innovation and technological excellence for the benifit of humanity, is the world's largest technical professional society. It is designed to serve professionals involved in all aspects of the electrical, electronics and computing fields and related areas of science and technology.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/ieee.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>IEEE Communications Society</h3>
+                <p>
+                  The IEEE Communications Society (ComSoc) is a professional society of IEEE. ComSoc promotes the advancement of science, technology and application in communication and related disciplines. It fosters presentation and exchange of information among its members and the technical community throughout the world. To bring the world together in harmony through communications and networking technology research, application, education, and incubation of new ideas.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/comsoc.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-4 text-center text-lg-left">
+            <img src="assets/img/prize.png" style="width: auto; height: 200px;">
+          </div>
+          <div class="col-lg-4 text-center text-lg-left">
+            <h3>Prizes</h3>
+            <p><strong>1st Prize:</strong>$200 + PLAQUE </p>
+            <p><strong>2nd Prize:</strong>$135 + PLAQUE </p>
+            <p><strong>3rd Prize:</strong>$100 + PLAQUE </p>
+            <p>$15 for each Shortlisted Projects</p>
+          </div>
+          <div class="col-lg-4 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="instructions.html">Apply Now</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Any Queries?</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-globe"></i>
+                <h4>Website:</h4>
+                <p><a href="https://comsoc.ieeekerala.org">comsoc.ieeekerala.org</a></p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>comsockeralachapter@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Phone:</h4>
+                <p>Krishna Priya: +91 90724 44529<br>Angel Alex: +91 80787 36831</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>PROCOMM 2020</h3>
+      <p>This is an online technical project contest for the engineering students to showcase their innovative, path-breaking ideas and take them to the next level</p>
+      <div class="social-links">
+        <a href="https://twitter.com/ieeecomsocks" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/ieeecomsocks/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/ieeecomsocks/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/ieeecomsocks/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div>
+        Made by IEEE Communications Society Kerala Chapter Web Team
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
